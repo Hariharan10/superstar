@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Renewal</title>
+    <style>
+    body{
+        font-family:cursive;
+    }
+    .photo{
+        border:2px solid;
+        padding:6%;
+        width: 40px;
+        height: 40px;
+        font-family: cursive;
+        transition: width 2s, height 2s, transform 2s;
+        background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(userimg.png);
+    }
+
+
+    .photo:hover {
+    width: 80px;
+    height: 80px;
+    transform: rotate(360deg);
+
+}
+        .menu{
+            padding: 4%;
+        }
+        .menu nav{
+            background-color:rgb(67, 64, 64);
+        }
+    .menu button{
+        background-color: rgb(67, 64, 64); /* Green */
+    border: 1px solid rgb(67, 64, 64);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    border:0px solid;
+    }
+    .menu button:hover{
+        background-color:red;
+    }
+    .nametag p{
+        font-family: cursive;
+        text-align: right;
+        line-height: 6px;
+    }
+        .notify{
+            background-color: rgba(67, 64, 64,0.6);
+            height: 100%;
+            width:100%;
+            color:aliceblue;
+            padding: inherit;
+
+
+        }
+        .float{
+            margin-right: 40px;
+        }
+        .mydetails{
+            height: 100%;
+            width:100%;
+        }
+
+</style>
+</head>
+    <body bgcolor="bisque">
+        <h1 style="color:rgb(67, 64, 64);font-size: 19px;">Renewal</h1>
+        <div class="mydetails">
+        <div class="menu">
+            <nav>
+                <a href=""><button type="button">My details</button></a>
+                <a href="payment.html"><button type="button">Renew</button></a>
+                <a href="#notify"><button type="button">Notification</button></a>
+                <a href=""><button type="button">Settings</button></a>
+                <a href="index.html"><button type="button">Logout</button></a>
+            </nav>
+        </div>
+        <div class=float align="right">
+        <div class="photo" >
+        </div>
+        <div class="nametag">
+            <p>Hope(name)</p>
+            <p>12H37(Id)</p>
+            <p>Harlem(From)</p>
+            <p>East Harlem(To)</p>
+            <p>Massachusetts IOT(College)</p>
+            <p>NYC(City)</p>
+        </div>
+        </div>
+        </div>
+        <div id="notify" class="notify">
+            <p>No Notification</p>
+        </div>
+
+    </body>
+</html>
